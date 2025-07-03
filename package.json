@@ -11,6 +11,9 @@
   },
   "dependencies": {
     "axios": "^1.10.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.0.1",
+    "dotlocal": "^1.0.0",
     "firebase": "^11.10.0",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
