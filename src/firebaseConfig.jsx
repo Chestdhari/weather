@@ -1,20 +1,19 @@
+import { getAuth, GoogleAuthProvider, signInWithPopup } from "firebase/auth";
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
-
-import { getAuth, GoogleAuthProvider, signInWithPopup } from "firebase/auth";
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyD4TMPpWEYzIJqe7WIunhVLHSR-KGTf3Uk",
-  authDomain: "ecommerce-auth-a5402.firebaseapp.com",
-  projectId: "ecommerce-auth-a5402",
-  storageBucket: "ecommerce-auth-a5402.firebasestorage.app",
-  messagingSenderId: "497384046051",
-  appId: "1:497384046051:web:6e54bb84eac954965ef4d6",
-  measurementId: "G-XR0L94FV80",
+  apiKey: "AIzaSyA1KuWwFFq0aM-ZCXMBu9SSZZH6k9EqrjU",
+  authDomain: "weather-64602.firebaseapp.com",
+  projectId: "weather-64602",
+  storageBucket: "weather-64602.firebasestorage.app",
+  messagingSenderId: "769418074493",
+  appId: "1:769418074493:web:a3353b3beec8ddcfbe9414",
+  measurementId: "G-2H2KJ6W140",
 };
 
 // Initialize Firebase
